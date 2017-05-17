@@ -9,10 +9,12 @@ namespace Ocarina_Computer_Controller
 {
     class Program
     {
-        static Main main = new Main();
+        static Main main;
         static void Main(string[] args)
         {
+            main = new Main();
             main.Run();
+            while (true) ;
         }
     }
 }
